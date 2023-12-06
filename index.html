@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute to Dr. APJ Abdul Kalam</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #3498db;
+            color: #fff;
+            padding: 40px;
+            text-align: center;
+        }
+
+        main {
+            margin: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .content {
+            width: 60%;
+            text-align: justify;
+        }
+
+        h1, h2 {
+            color: #12171b;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #555;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .fade-in {
+            opacity: 0;
+            animation: fadeIn 1.5s forwards;
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
+
+        footer {
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Dr. APJ Abdul Kalam Azad</h1>
+    </header>
+
+    <main class="fade-in">
+        <div class="content">
+            <h2>Biography</h2>
+            <p>
+                Dr. APJ Abdul Kalam, India's "People's President," was a renowned scientist, visionary, and statesman. Born on October 15, 1931, in Rameswaram, Tamil Nadu,
+                he played a crucial role in the development of India's civilian space program and military missile systems.
+            </p>
+
+            <p>
+                Known as the "Missile Man of India," Dr. Kalam served as the 11th President of India from 2002 to 2007. His inspiring speeches and
+                leadership style left an indelible mark on the minds of millions, especially the youth.
+            </p>
+
+            <p>
+                Dr. Kalam's dedication to education and his passion for igniting young minds led him to be a beloved figure across the nation.
+                He believed in the power of dreams and encouraged everyone to strive for excellence.
+            </p>
+
+            <p>
+                Despite his numerous accomplishments, Dr. APJ Abdul Kalam remained humble and approachable. He passed away on July 27, 2015,
+                but his legacy continues to inspire generations.
+            </p>
+
+            <!-- Additional details and quotes -->
+            <h2>Legacy and Quotes</h2>
+            <p>
+                Dr. Kalam's vision for a developed and self-reliant India continues to inspire generations. His contributions to science,
+                education, and national development are immeasurable. One of his famous quotes is, "Dream, dream, dream. Dreams transform into thoughts,
+                and thoughts result in action."
+            </p>
+
+            <p>
+                Another notable quote from Dr. Kalam is, "You have to dream before your dreams can come true." These words emphasize the importance
+                of having a vision and working towards it with determination.
+            </p>
+        </div>
+
+        <img class="fade-in" src="./A._P._J._Abdul_Kalam_in_2008.jpg" alt="Dr. APJ Abdul Kalam">
+    </main>
+
+    <footer>
+        <p>Created with respect by Arnab Sen</p>
+    </footer>
+
+    <script>
+        // Add a class to trigger the fade-in animation after the page loads
+        document.addEventListener("DOMContentLoaded", function () {
+            document.querySelector('.fade-in').classList.add('fade-in');
+        });
+    </script>
+</body>
+</html>
